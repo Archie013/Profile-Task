@@ -1,0 +1,221 @@
+@font-face{
+  font-family: abc;
+  src: url('GrapeNuts-Regular.ttf');
+}
+.scroll{
+  position: fixed;
+}
+.goto {
+   background-color: black;
+}
+.bullets {
+  display: inline-block ;
+  top: 0px;
+}
+.bullets li {
+  display: inline-block;
+  font-size: 3.5vw;
+  align-items: center;
+}
+.bullets li a {
+  color: white;
+  text-decoration: none;
+  padding: 34px 23px;
+
+}
+
+.bullets li a:hover {
+  text-decoration: underline;
+  color: grey;
+}
+
+
+img {
+  border-radius: 10px;
+  height: 100%;
+  width: 80%;
+  margin-top: 90px;
+  margin-left: 25px;
+  border-color: black;
+  border-width: 3px;
+  opacity: 1;
+  
+  
+}
+.about{
+  background-color: burlywood;
+}
+
+
+
+.text{
+  font-size: 200%;
+  font-family: abc;
+  text-decoration: bold italic;
+  color: rgb(72, 47, 163);
+  text-align: center;
+  background-color: rgb(202, 140, 59);
+  margin-top: 20%;
+ 
+  padding-left: 15px;
+  padding-right: 15px;
+  border-color: brown;
+  border-width: 10px;
+  border-style: dashed;
+  
+  line-height: 50%;
+  vertical-align: middle;
+}
+
+.hello{
+  font-size: 2em;
+
+}
+
+.I{
+  font-size: 1em;
+  
+}
+.name{
+  font-size: 2.5em;
+  
+}
+.homo{
+  font-size: 1em;
+  
+}
+
+
+.image {
+  opacity: 1;
+  display: block;
+  
+  transition: .5s ease;
+  
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0.00000001;
+  position: absolute;
+  top: 80%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  backface-visibility: visible;
+}
+
+.container:hover .image {
+  opacity: 0.7;
+}
+.hello:hover{
+  transform: scale(1.2);
+}
+ .name:hover {
+transform: scale(1.2);
+}
+
+.container:hover .middle{
+  opacity: 1;
+}
+
+.text1 {
+  background-color: lightblue;
+  color: black;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+.formal{
+  background-color: peachpuff;
+  padding: 10px;
+}
+.intro {
+  font-size: 400%;
+  box-align: center;
+  text-align: center;
+  width: 70%;
+  
+  padding: 10px;
+  
+  margin-top: 30px;
+  margin-left:20%;
+  color: black;
+  background-color: rgb(209, 57, 108);
+  box-shadow: 10px 10px 8px 10px rgb(204, 95, 131);
+}
+
+.footer{
+  background-color: black;
+  color: white;
+  font-size: 30px;
+  display: inline-block; 
+  padding: 0px;
+}
+.social{
+  background-color: black;
+}
+.media{
+  border-radius: 50%;
+  height:50px;
+  width:50px;
+}
+#message11{
+  background-color: rgb(177, 116, 36);
+}
+.boxes{
+  padding: 10px 10px;
+  margin: 20px 20px;
+  cursor: pointer;
+  width: 25%;
+  height: 40px;
+  box-sizing: border-box;
+  border: 2px solid rgb(90, 87, 87);
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  
+
+}
+.message{
+  width: 50%;
+  height: 100px;
+  text-decoration: underline;
+}
+.sub{
+  background-color: rgb(82, 190, 226);
+  border: 4px solid black;
+}
+h2{
+  text-align: center;
+  font-size: 40px;
+
+}
+h1{
+  font-size: 50px;
+  text-align: center;
+}
+.study{
+  display: inline-block;
+  background-color: rgb(202, 116, 116);
+}
+.schools{
+  /*display: inline-block; */
+  background-color: rgb(207, 81, 81);
+}
+.uni{
+  border: 5px solid cadetblue;
+  height: 300px;
+  width: 300px;
+  align-items: center;
+  align-content: center;
+  
+}
+.word{
+  color: black;
+font-size: 30px;
+padding: 20px;
+margin: 20px;
+
+}
+.edu{
+background-color: rgb(202, 116, 116); ;
+}
